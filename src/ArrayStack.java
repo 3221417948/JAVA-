@@ -66,4 +66,12 @@ public class ArrayStack {
            System.out.printf("stack[%d]=%d\n",i,stack[i]);
        }
    }
+
+    /**
+     * 栈中元素存在的个数
+     * @return
+     */
+   public int length(){
+       return this.top+1;
+   }
 }
