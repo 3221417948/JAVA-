@@ -1,3 +1,7 @@
+package stack;
+
+import stack.ArrayStack;
+
 public class TestStack {
     public static void main(String[] args) {
         String str="6-1-3";

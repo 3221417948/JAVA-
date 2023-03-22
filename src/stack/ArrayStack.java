@@ -1,3 +1,5 @@
+package stack;
+
 import java.util.Scanner;
 
 //静态栈 数组实现
