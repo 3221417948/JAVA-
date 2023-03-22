@@ -100,4 +100,25 @@ public class DLLinkedList {
             System.out.println("要删除的信息不存在！");
         }
     }
+
+    /**
+     * 链表倒转
+     * @param goodsNode
+     */
+    public void reverse(GoodsNode goodsNode){
+        if(goodsNode.next==null || goodsNode.next.next==null){
+            return;
+        }
+        GoodsNode point=goodsNode.next;
+        GoodsNode next=null;
+        GoodsNode reverseNode=new GoodsNode(0,"",0.0);
+
+        while (point !=null){
+            next=point.next;
+            point.next=reverseNode.next;
+            point=next;
+        }
+        goodsNode.next=reverseNode.next;
+
+    }
 }
