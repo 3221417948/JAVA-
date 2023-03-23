@@ -15,6 +15,9 @@ public class DLLinkedList {
             if (temp.next == null) {
                 break;
             }
+            if(temp.next.id==goodsNode.id){
+                break;
+            }
             temp = temp.next;
         }
         temp.next = goodsNode;
@@ -37,7 +40,8 @@ public class DLLinkedList {
                 flag = true;
                 break;
             }
-            temp=temp.next;
+            temp = temp.next;
+        }
             if (flag){
                 System.out.println("该商品已经存在，不能再次添加！");
             }else {
@@ -45,7 +49,7 @@ public class DLLinkedList {
                 temp.next=goodsNode;
             }
         }
-    }
+
 
     /**
      * 修改结点
@@ -98,6 +102,24 @@ public class DLLinkedList {
             temp.next=temp.next.next;
         }else {
             System.out.println("要删除的信息不存在！");
+        }
+    }
+
+    /**
+     * 定义查看链表中每一个结点元素
+     */
+    public void list(){
+        if(node.next==null){
+            System.out.println("空链表");
+            return;
+        }
+        GoodsNode temp=node.next;
+        while (true){
+            if(temp==null){
+                break;
+            }
+            System.out.println(temp);
+            temp=temp.next;
         }
     }
 

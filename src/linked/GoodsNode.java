@@ -17,4 +17,13 @@ public class GoodsNode {
         this.price = price;
         this.next = next;
     }
+
+    @Override
+    public String toString() {
+        return "GoodsNode{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", price=" + price +
+                '}';
+    }
 }

@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18bbbe5c-f48e-43db-bfe4-8df414cba24e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linked/DLLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linked/GoodsNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linked/TestLinked.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack/ArrayStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack/TestApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack/TestStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linked/DLLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linked/DLLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linked/GoodsNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linked/GoodsNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,24 +39,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.TestStack">
+}</component>
+  <component name="RunManager" selected="Application.TestLinked">
     <configuration name="TestApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stack.TestApp" />
       <module name="bili-sjjg" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLinked" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linked.TestLinked" />
+      <module name="bili-sjjg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linked.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -74,6 +83,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestLinked" />
         <item itemvalue="Application.TestStack" />
         <item itemvalue="Application.TestApp" />
       </list>
@@ -93,7 +103,8 @@
       <workItem from="1678886620865" duration="789000" />
       <workItem from="1678957025613" duration="5432000" />
       <workItem from="1679378492475" duration="43000" />
-      <workItem from="1679468801768" duration="4764000" />
+      <workItem from="1679468801768" duration="5642000" />
+      <workItem from="1679557940883" duration="1359000" />
     </task>
     <task id="LOCAL-00001" summary="用数组实现栈（静态栈）">
       <created>1678721951286</created>
@@ -116,7 +127,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678960847785</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="新增链表的基础操作">
+      <created>1679490157415</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679490157416</updated>
+    </task>
+    <task id="LOCAL-00005" summary="新增链表的基础操作和链表的反转">
+      <created>1679491415206</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679491415206</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,7 +151,9 @@
     <MESSAGE value="用数组实现栈（静态栈）" />
     <MESSAGE value="栈的小案例：回文数" />
     <MESSAGE value="面试题：用栈模拟数字计算 如 4+2*3-1/3" />
-    <option name="LAST_COMMIT_MESSAGE" value="面试题：用栈模拟数字计算 如 4+2*3-1/3" />
+    <MESSAGE value="新增链表的基础操作" />
+    <MESSAGE value="新增链表的基础操作和链表的反转" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增链表的基础操作和链表的反转" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
