@@ -143,4 +143,24 @@ public class DLLinkedList {
         goodsNode.next=reverseNode.next;
 
     }
+
+    /**
+     * 面试题
+     * 计算单链表中存在的结点个数
+     * 不统计头结点
+     * @return
+     */
+    public int getLength(){
+        if(node.next==null){
+            System.out.println("空链表");
+            return 0;
+        }
+        GoodsNode temp=node.next;
+        int length=0;
+        while (temp !=null){
+            length++;
+            temp=temp.next;
+        }
+        return length;
+    }
 }

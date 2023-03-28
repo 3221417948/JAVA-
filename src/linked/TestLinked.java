@@ -7,7 +7,7 @@ public class TestLinked {
         GoodsNode goodsNode1 = new GoodsNode(1, "耐克运动鞋", 599.00);
         GoodsNode goodsNode2 = new GoodsNode(2, "耐克上衣", 399.00);
         GoodsNode goodsNode3 = new GoodsNode(3, "耐克运动休闲裤", 299.00);
-        GoodsNode goodsNode4 = new GoodsNode(4, "阿迪达斯运动鞋", 899.00);
+        GoodsNode  goodsNode4 = new GoodsNode(4, "阿迪达斯运动鞋", 899.00);
         GoodsNode goodsNode5 = new GoodsNode(5, "李宁卫衣", 299.00);
 
         /*linkedList.add(goodsNode1);
@@ -29,6 +29,8 @@ public class TestLinked {
 
         linkedList.delNode(3);
         linkedList.list();
+
+        System.out.println(linkedList.getLength());
 
 
     }

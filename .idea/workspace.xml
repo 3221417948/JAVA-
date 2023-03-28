@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18bbbe5c-f48e-43db-bfe4-8df414cba24e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/linked/TestLinked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/doubLinked/BooksNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/doubLinked/DoubLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/linked/DLLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linked/DLLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linked/GoodsNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linked/GoodsNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linked/TestLinked.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linked/TestLinked.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +105,11 @@
       <workItem from="1678957025613" duration="5432000" />
       <workItem from="1679378492475" duration="43000" />
       <workItem from="1679468801768" duration="5642000" />
-      <workItem from="1679557940883" duration="1359000" />
+      <workItem from="1679557940883" duration="1664000" />
+      <workItem from="1679565296959" duration="892000" />
+      <workItem from="1679583803764" duration="1572000" />
+      <workItem from="1679634862827" duration="141000" />
+      <workItem from="1680011402200" duration="670000" />
     </task>
     <task id="LOCAL-00001" summary="用数组实现栈（静态栈）">
       <created>1678721951286</created>
@@ -141,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679491415206</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="链表的测试">
+      <created>1679559623344</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679559623344</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,7 +165,8 @@
     <MESSAGE value="面试题：用栈模拟数字计算 如 4+2*3-1/3" />
     <MESSAGE value="新增链表的基础操作" />
     <MESSAGE value="新增链表的基础操作和链表的反转" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增链表的基础操作和链表的反转" />
+    <MESSAGE value="链表的测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="链表的测试" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
